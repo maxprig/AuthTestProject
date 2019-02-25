@@ -26,9 +26,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Stv-IM-0zT">
-                                <rect key="frame" x="141" y="318" width="93" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Stv-IM-0zT">
+                                <rect key="frame" x="141" y="350.5" width="93" height="30"/>
                                 <state key="normal" title="Авторизация"/>
                                 <connections>
                                     <segue destination="0zl-iz-TYE" kind="show" id="d8a-Mk-48j"/>
@@ -36,6 +35,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Stv-IM-0zT" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="L9T-tg-xWR"/>
+                            <constraint firstItem="Stv-IM-0zT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kao-SJ-kPu"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="9Mg-jS-QmF">
